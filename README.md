@@ -112,7 +112,7 @@ Thank you💕 so much guys to read my story. Have a nice day :)
 
 https://youtu.be/aN3Nayvd7FU     
                                   
-https://youtu.be/iLFkxAmwXF0     || >>>>>>>>>> Just Paste It On Google
+https://youtu.be/iLFkxAmwXF0     || >>>>>>>>>> Just Paste Them On Google
                                  
 https://youtu.be/IjHrwKAmGn8     
 
