@@ -66,7 +66,7 @@ Option name: -e
 ```
 ./ffuf -w /root/Desktop/SecLists-master/Discovery/Web-Content/raft-large-directories.txt -u https://xyz.com/FUZZ -e .html,.php,.txt,.pdf
 ```
-Sometimes it gives you valuable information. Which is maybe goldmine on your penetration testing/bug hunting.Choose extension base on your target.
+Sometimes it gives you valuable information. Which is maybe goldmine on your penetration testing/bug hunting.For this, you have to choose extension base on your target.
 
 
 ## Silent:
