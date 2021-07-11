@@ -81,13 +81,20 @@ If you just print the result and don’t see any kind of fuzzing process on your
 
 ## Output:
 
-Option name: -of json, ejson, html, md, csv(choose one)
+Choose one -of json, ejson, html, md, csv
 
 I generally use | tee for result output. But if you want to get output on GUI(graphical user interface) for your better understand/client demand then your CM is.
 
 ```
 ./ffuf -w /root/Desktop/SecLists-master/Discovery/Web-Content/raft-large-directories.txt -u https://xyz.com/FUZZ -of html -o ffuf-result
 ```
+
+## Subdomain Enumeration
+
+```
+./ffuf -w /root/Desktop/wordlist.txt -u http://FUZZ.ab.com -of html -o result
+```
+Remember use http:// protocol after "-u" because sometimes many subdomains do not run over https.
 
 ## Throttle(Last one but an important one)
 
