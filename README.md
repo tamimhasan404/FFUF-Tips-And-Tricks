@@ -1,3 +1,7 @@
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) <a href="https://twitter.com/tamimhasan404">
+    <img src="https://img.shields.io/badge/author-@tamimhasan404-orange.svg?style=square&logo=twitter">
+  </a>
+
 # FFUF-Tips-And-Tricks
 
 ![maxresdefault](https://user-images.githubusercontent.com/66991901/106985150-167bd600-6793-11eb-95ab-dfb5774192f0.jpg)
