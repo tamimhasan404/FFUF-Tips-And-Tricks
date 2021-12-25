@@ -27,6 +27,14 @@ Use wordlist on ffuf for more affectively fuzzing. I use SecLists-master for exa
 
 /root/Desktop/SecLists-master/Discovery/Web-Content/raft-large-directories.txt this is just a path where is the wordlist is situated.
 
+## Fuff with all domain
+
+This is a common problem for beginners that they don’t know how to use fuff in all of their collected subdomains as fuff has no default option for list of domains like dirsearch. So here is something for you which I found in https://twitter.com/0xJin tweet.
+
+```
+cat live.txt | xargs -I@ sh -c 'ffuf -w wordlists.txt -u @/FUZZ -mc 200'
+```
+
 ## Filtering:
 
 
