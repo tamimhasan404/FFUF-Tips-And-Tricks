@@ -119,6 +119,8 @@ This is very useful because with this you throttle/delay your request. As you kn
 ```
 rate 2 means two requests per second. You can also customize the number.
 
+
+
 - Here are some other useful options on ffuf:
 
 timeout → HTTP request timeout in seconds (default: 10)
