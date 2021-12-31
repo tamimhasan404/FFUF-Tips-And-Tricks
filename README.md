@@ -117,7 +117,6 @@ In this time -ac options comes into the picture. This option automatically remov
 
 ```
 ./ffuf -w /root/Desktop/wordlist.txt -u http://FUZZ.ab.com -ac
-
 ```
 
 ## Throttle(Last one but an important one)
