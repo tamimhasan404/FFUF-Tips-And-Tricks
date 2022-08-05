@@ -112,7 +112,7 @@ Remember use http:// protocol after "-u" because sometimes many subdomains do no
 
 Option name: -ac
 
-So this is a very useful thing, while Directory Bruteforce you may see sometimes we see lots of same length status code like 403,401 etc that means the output isn’t that much useful as they treat all of our directory bruteforce wordlists at the same length. This is problematic when you have a big wordlist and the same length 403 repats 20000 or 30000 times(think about your messy output) So what should you do? should you use -fc option in your command for filtering 403 then you may miss some sensitive directory.
+So this is a very useful thing, while Directory Bruteforce sometimes we see a lot of same length status code like 403,401 etc that means the output isn’t that much useful as they treat all of our directory bruteforce wordlists at the same length. This is problematic when you have a big wordlist and the same length 403 repats 20000 or 30000 times(think about your messy output) So what should you do? should you use -fc option in your command for filtering 403 then you may miss some sensitive directory.
 In this time -ac options comes into the picture. This option automatically removes the same length dir and gives you a nice and clean output.
 
 ```
