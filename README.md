@@ -29,7 +29,13 @@ Use wordlist on ffuf for more affectively fuzzing. I use SecLists-master for exa
 
 ## Fuff with all domain
 
-This is a common problem for beginners that they don’t know how to use fuff in all of their collected subdomains as fuff has no default option for list of domains like dirsearch. So here is something for you which I found in https://twitter.com/0xJin tweet.
+This is a common problem for beginners that they don’t know how to use fuff in all of their collected subdomains as fuff has no default option for list of domains like dirsearch. So here is something for you that I personally use
+
+```
+for url in $(cat targets.txt); do ffuf -ac -fc 404,403 -w wordlist.txt -u $url/FUZZ >> results.txt; done && sort -u results.txt | grep -E '^https?://' > results.txt
+```
+
+* You can also see check https://twitter.com/0xJin tweet.
 
 ```
 cat live.txt | xargs -I@ sh -c 'ffuf -w wordlists.txt -u @/FUZZ -mc 200'
